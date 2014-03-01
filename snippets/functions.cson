@@ -1,0 +1,55 @@
+".source.scss":
+    "compact":
+        "prefix": "compact"
+        "body": "compact($name-1, $name-2, $name-3, $name-4, $name-5, $name-6, $name-7, $name-8, $name-9, $name-10);"
+    "fg column":
+        "prefix": "fg-column"
+        "body": "$fg-column: 60px;"
+    "fg gutter":
+        "prefix": "fg-gutter"
+        "body": "$fg-gutter: 25px;"
+    "fg max columns":
+        "prefix": "fg-max-columns"
+        "body": "$fg-max-columns: 12;"
+    "flex grid":
+        "prefix": "flex-grid"
+        "body": "$flex-grid(2,4);"
+    "flex gutter":
+        "prefix": "flex-gutter"
+        "body": "flex-gutter(4);"
+    "golden ratio":
+        "prefix": "golden-ratio"
+        "body": "golden-ratio(14px, 1);"
+    "gw column":
+        "prefix": "gw-column"
+        "body": "$gw-column: 100px;"
+    "gw gutter":
+        "prefix": "gw-gutter"
+        "body": "$gw-gutter: 40px;"
+    "grid width":
+        "prefix": "grid-width"
+        "body": "grid-width(4);"
+    "linear gradient":
+        "prefix": "linear-gradient"
+        "body": "@include background-image(linear-gradient(white 0, yellow 50%, transparent 50%));"
+    "modular scale":
+        "prefix": "modular-scale"
+        "body": "modular-scale(14px, 1, 1.618);"
+    "modular scale floor":
+        "prefix": "floor"
+        "body": "floor(modular-scale(14px, 1, 1.618));"
+    "modular scale ceil":
+        "prefix": "ceil"
+        "body": "ceil(modular-scale(14px, 1, 1.618));"
+    "modular scale abs":
+        "prefix": "abs"
+        "body": "abs(modular-scale(14px, 1, 1.618));"
+    "radial gradient":
+        "prefix": "radial-gradient"
+        "body": "@include background-image(radial-gradient(#000, #fff)"
+    "tint":
+        "prefix": "tint"
+        "body": "tint(red, 40%);"
+    "shade":
+        "prefix": "shade"
+        "body": "shade(blue, 60%);""

@@ -1,0 +1,15 @@
+{
+  "name": "jack-n-coke",
+  "main": "./lib/jack-n-coke",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A snippet boost for Bourbon.io & Neat.bourbon.io users",
+  "activationEvents": ["jack-n-coke:toggle"],
+  "repository": "https://github.com/atom/jack-n-coke",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}

@@ -1,0 +1,28 @@
+".source.scss":
+    "fill parent":
+        "prefix": "fill-parent"
+        "body": "@include fill-parent;"
+    "outer container":
+        "prefix": "outer-container"
+        "body": "@include outer-container;"
+    "span columns":
+        "prefix": "span-columns"
+        "body": "@include span-columns(12);"
+    "row":
+        "prefix": "row"
+        "body": "@include row(block | table);"
+    "shift":
+        "prefix": "shift"
+        "body": "@include shift(2);"
+    "pad":
+        "prefix": "pad"
+        "body": "@include pad(2em default);"
+    "omega":
+        "prefix": "omega"
+        "body": "@include omega(3n);"
+    "media query":
+        "prefix": "media"
+        "body": "@include media(min-width 320px max-width 480px);"
+    "new breakpoint":
+        "prefix": "breakpoint"
+        "body": "new-breakpoint(min-width 320px max-width 480px);"

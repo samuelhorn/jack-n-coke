@@ -1,0 +1,157 @@
+".source.scss":
+    "animation":
+        "prefix": "animation"
+        "body": "@include animation(${1:fadeIn .25s ease-in-out});"
+    "animation name":
+        "prefix": "animation-name"
+        "body": "@include animation-name(${1:fadeIn, rotateUp});"
+    "animation delay":
+        "prefix": "animation-delay"
+        "body": "@include animation-delay($1);"
+    "animation direction":
+        "prefix": "animation-direction"
+        "body": "@include animation-direction($1);"
+    "animation duration":
+        "prefix": "animation-duration"
+        "body": "@include animation-duration($1);"
+    "animation fill mode":
+        "prefix": "animation-fill-mode"
+        "body": "@include animation-flll-mode(${1:both});"
+    "animation iteration count":
+        "prefix": "animation-iteration-count"
+        "body": "@include animation-iteration-count(${1:infinite});"
+    "animation play state":
+        "prefix": "animation-play-state"
+        "body": "@include animation-play-state($1);"
+    "animation timing function":
+        "prefix": "animation-timing-function"
+        "body": "@include animation-timing-function(${1:ease-in-out});"
+    "appearance":
+        "prefix": "appearance"
+        "body": "@include appearance(${1:none});"
+    "background":
+        "prefix": "background"
+        "body": "@include background($1);"
+    "border image":
+        "prefix": "border-image"
+        "body": "@include border-image(url('${1:img/border-png}') ${2:27 repeat}));"
+    "box sizing":
+        "prefix": "box-sizing"
+        "body": "@include box-sizing(${1:border-box});"
+    "columns":
+        "prefix": "columns"
+        "body": "@include columns(${1:12 8em});"
+    "column count":
+        "prefix": "column-count"
+        "body": "@include column-count($1);"
+    "column fill":
+        "prefix": "column-fill"
+        "body": "@include column-fill($1);"
+    "column gap":
+        "prefix": "column-gap"
+        "body": "@include column-gap($1);"
+    "column rule":
+        "prefix": "column-rule"
+        "body": "@include column-rule($1);"
+    "column rule color":
+        "prefix": "column-rule-color"
+        "body": "@include column-rule-color($1);"
+    "column rule style":
+        "prefix": "column-rule-style"
+        "body": "@include column-rule-style($1);"
+    "column rule width":
+        "prefix": "column-rule-width"
+        "body": "@include column-rule-width($1);"
+    "column span":
+        "prefix": "column-span"
+        "body": "@include column-span($1);"
+    "column width":
+        "prefix": "column-width"
+        "body": "@include column-width($1);"
+    "flex box":
+        "prefix": "flex-box"
+        "body": "@include flex-box($1);"
+    "box":
+        "prefix": "box"
+        "body": "@include box($1);"
+    "box align":
+        "prefix": "box-align"
+        "body": "@include box-align(${1:start | end | center | baseline | stretch});"
+    "box direction":
+        "prefix": "box-direction"
+        "body": "@include box-direction($1);"
+    "box flex":
+        "prefix": "box-flex"
+        "body": "@include box-flex($1);"
+    "box flex group":
+        "prefix": "box-flex-group"
+        "body": "@include box-felx-group($1);"
+    "box lines":
+        "prefix": "box-lines"
+        "body": "@include box-lines($1);"
+    "box ordinal group":
+        "prefix": "box-ordinal-group"
+        "body": "@include box-ordinal-group($1);"
+    "box orient":
+        "prefix": "box-orient"
+        "body": "@include box-orient($1);"
+    "box pack":
+        "prefix": "box-pack"
+        "body": "@include box-pack($1);"
+    "display box":
+        "prefix": "display-box"
+        "body": "@include display-box($1);"
+    "font face":
+        "prefix": "font-face"
+        "body": "@include font-face(${1:SourceSansPro, 'fonts/SourceSansPro-Regular'});"
+    "hidpi":
+        "prefix": "hidpi"
+        "body": "@include hidpi(${1:1.5});"
+    "image rendering":
+        "prefix": "image-rendering"
+        "body": "@include image-rendering(${1:optimizeSpeed});"
+    "keyframes":
+        "prefix": "keyframes"
+        "body": "@include keyframes($1);"
+    "linear gradient":
+        "prefix": "linear-gradient"
+        "body": "@include linear-gradient(${1:#000, #fff});"
+    "perspective":
+        "prefix": "perspective"
+        "body": "@include perspective(${1:800px});"
+    "perspective origin":
+        "prefix": "perspective-origin"
+        "body": "@include perspective-origin(${1:30% 30%});"
+    "placeholder":
+        "prefix": "placeholder"
+        "body": "@include placeholder {${1:color: red;}}"
+    "radial gradient":
+        "prefix": "radial-gradient"
+        "body": "@include radial-gradient(${1:#000, #fff});"
+    "transform":
+        "prefix": "transform"
+        "body": "@include transform(${1:translateY(50px)});"
+    "transform origin":
+        "prefix": "transform-origin"
+        "body": "@include transform-origin(${1:center top});"
+    "transform style":
+        "prefix": "transform-style"
+        "body": "@include transform-style(${1:preserve-3d});"
+    "transition":
+        "prefix": "transition"
+        "body": "@include transition(${1:all .25s ease-in-out});"
+    "transition delay":
+        "prefix": "transition-delay"
+        "body": "@include transition-delay($1);"
+    "transition duration":
+        "prefix": "transition-duration"
+        "body": "@include transition-duration($1);"
+    "transition property":
+        "prefix": "transition-property"
+        "body": "@include transition-property($1);"
+    "transition timing function":
+        "prefix": "transition-timing-function"
+        "body": "@include transition-timing-function($1);"
+    "user select":
+        "prefix": "user-select"
+        "body": "@include user-select(${1:none});"

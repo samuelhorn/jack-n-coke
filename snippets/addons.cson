@@ -1,0 +1,67 @@
+".source.scss":
+    "button":
+        "prefix": "button"
+        "body": "@include button(simple, #ff0000);"
+    "clearfix":
+        "prefix": "clearfix"
+        "body": "@include clearfix;"
+    "helvetica":
+        "prefix": "helvetica"
+        "body": "font-family: $helvetica;"
+    "georgia":
+        "prefix": "georgia"
+        "body": "font-family: $georgia;"
+    "lucida grande":
+        "prefix": "lucida-grande"
+        "body": "font-family: $lucida-grande;"
+    "monospace":
+        "prefix": "monospace"
+        "body": "font-family: $monospace;"
+    "verdana":
+        "prefix": "verdana"
+        "body": "font-family: $verdana;"
+    "hide text":
+        "prefix": "hide-text"
+        "body": "@include hide-text;"
+    "all text inputs":
+        "prefix": "all-text-inputs"
+        "body": "#{$all-text-inputs} { border: 1px solid green; }"
+    "all text inputs hover":
+        "prefix": "all-text-inputs-hover"
+        "body": "#{$all-text-inputs-hover} { background: yellow; }"
+    "all text inputs focus":
+        "prefix": "all-text-inputs-focus"
+        "body": "#{$all-text-inputs-focus} { background: white; }"
+    "inline block":
+        "prefix": "inline-block"
+        "body": "@include inline-block;"
+    "position":
+        "prefix": "position"
+        "body": "@include position(absolute, 0em 0 0 0);"
+    "retina":
+        "prefix": "retina-image"
+        "body": "@include retina-image(home-icon, 32px 20px);"
+    "size":
+        "prefix": "size"
+        "body": "@include size(30px 70px);"
+    "triangle":
+        "prefix": "triangle"
+        "body": "@include triangle(12px, gray, down);"
+    "prefix for webkit":
+        "prefix": "prefix-for-webkit"
+        "body": "$prefix-for-webkit: true;"
+    "prefix for mozilla":
+        "prefix": "prefix-for-mozilla"
+        "body": "$prefix-for-mozilla: true;"
+    "prefix for microsoft":
+        "prefix": "prefix-for-microsoft"
+        "body": "$prefix-for-microsoft: true;"
+    "prefix for opera":
+        "prefix": "prefix-for-opera"
+        "body": "$prefix-for-opera: true;"
+    "prefix for spec":
+        "prefix": "prefix-for-spec"
+        "body": "$prefix-for-spec: true;"
+    "prefixer":
+        "prefix": "prefixer"
+        "body": "@include prefixer(box-sizing, $box, webkit moz spec);"
