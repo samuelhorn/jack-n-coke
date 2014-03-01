@@ -1,0 +1,16 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      {
+        'label': 'jack-n-coke'
+        'submenu': [
+          {
+            'label': 'Toggle'
+            'command': 'jack-n-coke:toggle'
+          }
+        ]
+      }
+    ]
+  }
+]
