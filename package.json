@@ -2,7 +2,7 @@
   "name": "jack-n-coke",
   "main": "./lib/jack-n-coke",
   "version": "0.0.0",
-  "private": true,
+  "private": false,
   "description": "A snippet boost for Bourbon.io & Neat.bourbon.io users",
   "activationEvents": ["jack-n-coke:toggle"],
   "repository": "https://github.com/samuelhorn/jack-n-coke/",
