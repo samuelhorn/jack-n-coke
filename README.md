@@ -8,7 +8,7 @@ In Atom hit cmd+shift+p, write "install packages" and press enter. Then just sea
 
 ## How to use
 
-For any mixin, function, or add-on just write the prefix and hit tab. For example, animate[tab] will render the following:
+For any mixin, function, or add-on just write the prefix and hit tab. For example, animation[tab] will render the following:
 ```css
 @include animation(fadeIn .25s ease-in-out);
 ```
