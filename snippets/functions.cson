@@ -52,4 +52,4 @@
         "body": "tint(red, 40%);"
     "shade":
         "prefix": "shade"
-        "body": "shade(blue, 60%);""
+        "body": "shade(blue, 60%);"
