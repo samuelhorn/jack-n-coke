@@ -7,22 +7,22 @@
         "body": "@include outer-container;"
     "span columns":
         "prefix": "span-columns"
-        "body": "@include span-columns(12);"
+        "body": "@include span-columns();"
     "row":
         "prefix": "row"
         "body": "@include row(block | table);"
     "shift":
         "prefix": "shift"
-        "body": "@include shift(2);"
+        "body": "@include shift();"
     "pad":
         "prefix": "pad"
         "body": "@include pad(2em default);"
     "omega":
         "prefix": "omega"
-        "body": "@include omega(3n);"
+        "body": "@include omega();"
     "media query":
         "prefix": "media"
-        "body": "@include media(min-width 320px max-width 480px);"
+        "body": "@include media();"
     "new breakpoint":
         "prefix": "breakpoint"
         "body": "new-breakpoint(min-width 320px max-width 480px);"

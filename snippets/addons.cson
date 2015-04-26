@@ -25,13 +25,13 @@
         "body": "@include hide-text;"
     "all text inputs":
         "prefix": "all-text-inputs"
-        "body": "#{$all-text-inputs} { border: 1px solid green; }"
+        "body":'"#{$all-text-inputs} { border: 1px solid green; }'
     "all text inputs hover":
         "prefix": "all-text-inputs-hover"
-        "body": "#{$all-text-inputs-hover} { background: yellow; }"
+        "body": '#{$all-text-inputs-hover} { background: yellow; }'
     "all text inputs focus":
         "prefix": "all-text-inputs-focus"
-        "body": "#{$all-text-inputs-focus} { background: white; }"
+        "body": '#{$all-text-inputs-focus} { background: white; }'
     "inline block":
         "prefix": "inline-block"
         "body": "@include inline-block;"
