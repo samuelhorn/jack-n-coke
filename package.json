@@ -4,9 +4,9 @@
   "version": "0.4.0",
   "private": false,
   "description": "A snippet boost for Bourbon.io & Neat.bourbon.io users",
-  "activationEvents": [
-    "jack-n-coke:toggle"
-  ],
+  "activationCommands": {
+    "atom-workspace": ["jack-n-coke:toggle"]
+  },
   "repository": "https://github.com/samuelhorn/jack-n-coke/",
   "license": "MIT",
   "engines": {
